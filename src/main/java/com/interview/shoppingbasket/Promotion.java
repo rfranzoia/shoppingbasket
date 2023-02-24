@@ -1,5 +1,19 @@
 package com.interview.shoppingbasket;
 
 public class Promotion {
-    // Not yet implemented
+
+    public enum PromotionType {
+        BUY_TWO_PAY_ONE, RETAIL_PRICE_OFF_50, RETAIL_PRICE_OFF_10
+    }
+
+    private String productCode;
+    private PromotionType promotionType;
+
+    public String getProductCode() {
+        return productCode;
+    }
+
+    public PromotionType getPromotionType() {
+        return promotionType;
+    }
 }
