@@ -9,6 +9,11 @@ public class Promotion {
     private String productCode;
     private PromotionType promotionType;
 
+    public Promotion(String productCode, PromotionType promotionType) {
+        this.productCode = productCode;
+        this.promotionType = promotionType;
+    }
+
     public String getProductCode() {
         return productCode;
     }
